@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *, ::after, ::before {
     box-sizing: border-box;
@@ -416,6 +417,17 @@ form select {
 .emo {
     text-transform: uppercase;
 }
+
+.activ h1{
+    font-size: 70px !important;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.activ2 h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px; 
+}
+
 /* MEDIA QUERIES PANTALLA MUY ANCHA */
 
 
@@ -457,6 +469,10 @@ form select {
     .card__content {
         width: 100%;
         margin-top: 15px;
+    }
+
+    .activ h1{
+        font-size: 30px !important;
     }
 }
 
@@ -518,6 +534,10 @@ form select {
     .titempre h4{
         font-size: 24px !important;
         margin-left: 30px;
+    }
+
+    .activ h1{
+        font-size: 30px !important;
     }
 }
 
