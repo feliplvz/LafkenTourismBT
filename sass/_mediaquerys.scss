@@ -1,0 +1,135 @@
+@media (max-width:1200px) {
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+/* MEDIA QUERIES PANTALLA SM */
+
+@media (max-width:768px) {
+    #intro, #equipo {
+        width: 80% !important;
+    }
+
+    .servicio-fila {
+        width: $cienpor !important;
+        text-align: center;
+    }
+
+    .mapa iframe {
+        margin-left: 0;
+    }
+
+    .card__image {
+        width: $cienpor;
+    }
+
+    .card__content {
+        width: $cienpor;
+        margin-top: 15px;
+    }
+
+    .activ h1{
+        font-size: 30px !important;
+    }
+}
+
+@media (min-width: 700px) {
+    #bodycontacto {
+        padding: 0 4rem;
+    }
+
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        padding: 1em;
+        text-align: left;
+    }
+
+    .contact-info ul li iframe{
+        width: $cienpor;
+    }
+}
+
+
+/* MEDIA QUERIES PANTALLA EXTRA SM */
+
+@media (max-width:576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .carousel-inner {
+        max-height: 15rem;
+        height: 10rem;
+        width: $cienpor;
+        width: auto;
+        img {
+            max-height: 15rem;
+        }
+    }
+    
+    .emy {
+        display: none;
+    }
+
+    .titempre {
+        h1 {
+        font-size: 50px !important;
+        margin-left: 30px;
+        margin-top: 80px !important;
+        }
+        h4 {
+        font-size: 24px !important;
+        margin-left: 30px;  
+        }
+    }
+
+    .activ h1{
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width:375px) {
+        .emo {
+            display: none;
+        }
+
+        .emm {
+            display: none;
+        }
+}
+
+@media (min-width: 280px) {
+    .contact-form form {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-form form .block {
+        grid-column: 1 / 1;
+    }
+
+    .contact-info ul li {
+        font-size: 15px;
+        iframe {
+            width: $cienpor;    
+        }
+    }
+}
