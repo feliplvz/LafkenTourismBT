@@ -1,3 +1,6 @@
+
+/* MEDIA QUERY PANTALLA LG */
+
 @media (max-width:1200px) {
     #local {
         flex-wrap: wrap;
@@ -75,6 +78,7 @@
         flex-wrap: wrap;
         justify-content: center !important;
     }
+
     .carousel-inner {
         max-height: 15rem;
         height: 10rem;

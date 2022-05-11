@@ -2,10 +2,9 @@
     max-height: $uncuarto;
     height: $uncuarto;
     width: auto;
-}
-
-.carousel-inner img {
-    max-height: 100rem;
+    img {
+        max-height: 100rem; 
+    }
 }
 
 .emy {
@@ -19,4 +18,3 @@
         max-height: $uncuarto;
     }
 }
-

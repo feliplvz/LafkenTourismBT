@@ -24,11 +24,10 @@ body {
 
 /* CARRUSEL */
 .carousel-inner {
-  max-height: 25px;
-  height: 25px;
+  max-height: 25rem;
+  height: 25rem;
   width: auto;
 }
-
 .carousel-inner img {
   max-height: 100rem;
 }
@@ -38,11 +37,11 @@ body {
 }
 
 .carro2 {
-  height: 25px;
+  height: 25rem;
   width: 100%;
 }
 .carro2 img {
-  max-height: 25px;
+  max-height: 25rem;
 }
 
 /* SERVICIOS */
@@ -410,6 +409,7 @@ form select {
 }
 
 /* MEDIA QUERYS */
+/* MEDIA QUERY PANTALLA LG */
 @media (max-width: 1200px) {
   #local {
     flex-wrap: wrap;
