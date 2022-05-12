@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 /* VARIABLES */
@@ -47,11 +48,9 @@ body {
 /* SERVICIOS */
 .card {
   max-width: 1100px;
-  width: 400px;
   border-radius: var(--border-radius-primary);
   box-shadow: 24px 24px 80px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-  margin: 20px;
   display: flex;
   flex-direction: column;
   flex-direction: row;
@@ -179,7 +178,6 @@ section.pricing {
 .pricing .card-title {
   margin: 0.5rem 0;
   font-size: 0.9rem;
-  align-items: center;
   letter-spacing: 0.1rem;
   font-weight: bold;
 }
@@ -475,7 +473,30 @@ form select {
 }
 
 /* MEDIA QUERYS */
+/* MEDIA QUERYS PANTALLAS PEQUEÑAS */
+@media (max-width: 350px) {
+  .card {
+    position: relative;
+    left: 0px;
+  }
+
+  .card-body {
+    position: relative;
+    left: -25px;
+  }
+}
+@media (max-width: 320px) {
+  .card {
+    margin: -10px;
+  }
+}
 /* MEDIA QUERY PANTALLA LG */
+@media (min-width: 1200px) {
+  .card {
+    margin: 18px;
+    padding: 25px;
+  }
+}
 @media (max-width: 1200px) {
   #local {
     flex-wrap: wrap;
@@ -497,12 +518,6 @@ form select {
 
   .pricing .card:hover .btn {
     opacity: 1;
-  }
-
-  .card {
-    width: 80px;
-    margin-left: 5px;
-    margin-right: 5px;
   }
 }
 /* MEDIA QUERIES PANTALLA SM */
@@ -600,6 +615,10 @@ form select {
 
   .emm {
     display: none;
+  }
+
+  .card {
+    margin: 0px;
   }
 }
 @media (min-width: 280px) {
