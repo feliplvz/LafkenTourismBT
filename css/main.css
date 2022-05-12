@@ -500,7 +500,8 @@ form select {
   }
 
   .card {
-    width: 130px;
+    width: 100px;
+    margin: auto;
   }
 }
 /* MEDIA QUERIES PANTALLA SM */
