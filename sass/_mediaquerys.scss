@@ -2,14 +2,9 @@
 
 @media (max-width: 350px) {
     .card {
-        position: relative;
-        left: 0px
+        width: 10px;
     }
 
-    .card-body {
-        position: relative;
-        left: -25px;
-    }
 }
 
 @media (max-width: 320px) {
@@ -162,7 +157,7 @@
     }
 }
 
-@media (min-width:414px) {
+@media (max-width:414px) {
     .card {
         width: 280px;
         position: relative;

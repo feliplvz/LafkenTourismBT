@@ -476,13 +476,7 @@ form select {
 /* MEDIA QUERYS PANTALLAS PEQUEÑAS */
 @media (max-width: 350px) {
   .card {
-    position: relative;
-    left: 0px;
-  }
-
-  .card-body {
-    position: relative;
-    left: -25px;
+    width: 10px;
   }
 }
 @media (max-width: 320px) {
@@ -621,7 +615,7 @@ form select {
     margin: 0px;
   }
 }
-@media (min-width: 414px) {
+@media (max-width: 414px) {
   .card {
     width: 280px;
     position: relative;
