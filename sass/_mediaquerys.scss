@@ -160,10 +160,13 @@
     .card {
             margin: 0px;
     }
+}
 
-    .card-body {
+@media (min-width:414px) {
+    .card {
+        width: 280px;
         position: relative;
-        left: -25px;
+        left: -20px;
     }
 }
 
