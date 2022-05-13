@@ -72,7 +72,7 @@
     }
 
     .activ h1{
-        font-size: 30px !important;
+        font-size: 40px !important;
     }
 }
 
@@ -138,17 +138,39 @@
     }
 
     .activ h1{
-        font-size: 30px !important;
+        font-size: 27px !important;
+        margin-top: 30px !important;
+    }
+
+    .container {
+        margin-top: 0px;
+    }
+
+    .emo {
+        position: absolute;
+        top: -8px;
     }
 }
 
 @media (max-width:375px) {
     .emo {
-            display: none;
+            position: absolute;
+            top: -10px;
+            h1 {
+                font-size: 28px !important;
+            }
+    }
+
+    .container {
+        margin-top: 0px;
     }
 
     .emm {
-            display: none;
+            position: absolute;
+            top: 5px;
+            h1 {
+                font-size: 25px !important;
+            }
     }
 
     .card {
@@ -161,6 +183,10 @@
         width: 280px;
         position: relative;
         left: -20px;
+    }
+
+    .emm {
+        top: -9px;
     }
 }
 
