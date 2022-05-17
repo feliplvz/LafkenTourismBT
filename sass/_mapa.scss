@@ -20,6 +20,9 @@
 }
 
 .contenedor {
+    .text {
+        @include shape;
+    }
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

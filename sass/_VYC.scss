@@ -1,0 +1,13 @@
+$uncuarto: 25rem;
+$cienpor: 100%;
+$colorcontac: #e8e8e8;
+
+ /* DDS */
+
+@mixin shape {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}

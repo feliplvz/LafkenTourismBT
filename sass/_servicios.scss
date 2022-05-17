@@ -73,6 +73,9 @@
     margin-left: -4px;
     justify-content: center;
     align-items: center;
+    .text{
+        @extend .marketing;
+    }
 }
 
 .container {
@@ -98,6 +101,8 @@
     p {
         padding: 7px;
     }
+    .text {@include shape;
+    } 
 }
 
 .marketing {
