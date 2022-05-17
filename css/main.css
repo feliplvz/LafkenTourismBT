@@ -1,7 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-/* VARIABLES */
+/* VARIABLES Y MIXIN */
+/* DDS */
 /* NAV - INICIO */
 *, ::after, ::before {
   box-sizing: border-box;
@@ -121,7 +122,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .container {
   width: 100%;
   padding-right: 10px;
@@ -146,8 +146,15 @@ body {
 .row p {
   padding: 7px;
 }
+.row .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
 
-.marketing {
+.marketing, .card__title .text {
   margin-bottom: 1.5rem;
   text-align: center;
   margin-top: 2rem;
@@ -359,6 +366,13 @@ section.pricing {
   flex-wrap: wrap;
   margin-top: 80px;
   margin-bottom: 80px;
+}
+.contenedor .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
 }
 
 .pnn {
