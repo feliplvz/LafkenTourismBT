@@ -18,7 +18,7 @@ typewriter
         /* ========================================================================= */
     
         $(window).on('load', function () {
-            $('.preloader').fadeOut(700);
+            $('.preloader').fadeOut(500);
         });
         
     })(jQuery);
